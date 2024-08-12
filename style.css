@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 nav {
@@ -63,7 +63,7 @@ li {
 
 .btn-order {
 
-  
+
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
@@ -74,7 +74,7 @@ li {
     margin-top: 20px;
     background-color: #FFCA42;
     color: #1B3764;
- 
+
 
 }
 
@@ -102,17 +102,15 @@ main {
     display: flex;
     justify-content: space-around;
     padding: 100px;
-    background-color: #1B3764; 
+    background-color: #1B3764;
     margin-bottom: 5px;
-} 
+}
 
 article{
 
 padding-top: 170px;
 
-
-
-} 
+}
 
 .welcome-p{
     display:flex;
@@ -128,7 +126,7 @@ padding-top: 170px;
     padding-left: 5px;
 }
 
-.h2-p {
+.h2_p {
     font-family: "Cardo";
     font-size: 48px;
     color: white;
@@ -150,7 +148,7 @@ padding-top: 170px;
     display: flex;
     margin-top: 45px;
     font-family: "Cardo";
-        font-size: 21px;
+    font-size: 21px;
     color: white;
     font-weight: 100;
 }
@@ -178,7 +176,7 @@ margin-right: 30px;
     color: #1B3764;
     padding: 20px;
     font-family: "Cardo";
-    font-size: 20px 
+    font-size: 20px;
     margin-right: 20px;
 }
 
@@ -187,4 +185,87 @@ margin-right: 30px;
     color: white;
     font-size: 20px;
     margin-left: 20px;
+}
+.titulo-portaditas{
+
+display:flex;
+align-items: center;
+flex-direction: column;
+margin-bottom: 25px;
+
+
+}
+.portadas-pequeñas{
+display: flex;
+justify-content: center;
+justify-content: space-around;
+margin-bottom: 50px;
+
+}
+
+.imagenes-portaditas{
+    box-shadow: 0px 0px 7px rgba(0,0,0, 0.2);
+    margin-right: 25px;
+}
+
+.h-portaditas{
+font-family: Cardo;
+font-size: 23px;
+color: #1B3764;
+margin-left: 10px;
+margin-bottom: 5px;
+}
+
+.h3-portaditas{
+
+    font-family: Cardo;
+    font-size: 32px;
+    color: #1B3764;
+}
+
+.h4-portaditas, .parrafos-portaditas{
+    font-family:Inter;
+    font-size: 18px;
+    font-weight: 200;
+    color: #969AA0;
+    margin-bottom: 25px;
+    margin-right: 60px;
+}
+
+.btn-portadita{
+
+    font-family: Cardo;
+    font-size: 19px;
+    background-color: white;
+    color: #1B3764;
+    border: 3px solid #FFCA42;
+    padding: 20px 53px;
+
+}
+
+.about-doctor{
+
+    display: flex;
+    justify-content: center;
+    gap: 142px;
+    margin-top: 150px;
+}
+
+.numeros{
+
+font-family: Cardo;
+font-size: 40px;
+margin-right: 65px;
+color: #1B3764;
+}
+
+.h4-about{
+    font-family:Inter;
+    font-size: 18px;
+    font-weight: 200;
+    color: #969AA0;
+    position: absolute;
+    margin-right: 65px;
+    margin-bottom: 25px;
+
 }
