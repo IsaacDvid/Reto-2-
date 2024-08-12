@@ -275,3 +275,36 @@ article {
    left: 315px;
 
 }
+
+/* ------------------------------------------------------------------ */
+
+.trusted-div-principal{
+  display: flex;
+  justify-content: space-around;
+  gap:40px;
+  margin-top: 30px;
+}
+
+
+.trusted-div{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 25px;
+}
+
+.h3-trusted{
+font-family: Cardo;
+font-size: 23px;
+color: #1B3764;
+margin-top: 10px;
+}
+
+.p-trusted{
+font-family: Inter;
+font-size: 18px;
+color: #969AA0;
+text-align: center;
+margin-top: 10px;
+
+}
