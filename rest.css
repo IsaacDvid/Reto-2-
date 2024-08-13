@@ -230,6 +230,7 @@ article {
   justify-content: center;
   gap: 142px;
   margin-top: 150px;
+  margin-bottom: 110px;
 }
 
 .numeros {
@@ -256,6 +257,8 @@ article {
   gap: 20px;
   display: flex;
   padding: 15px;
+  width: 477px;
+  height: 160px;
 }
 
 .h4-qr {
@@ -283,6 +286,7 @@ article {
   justify-content: space-around;
   gap:40px;
   margin-top: 30px;
+  margin-bottom: 100px;
 }
 
 
@@ -307,4 +311,17 @@ color: #969AA0;
 text-align: center;
 margin-top: 10px;
 
+}
+/* ------------------------------------------------------------------------------ */
+/* Zona de fondo azúl que se titula getbook */
+
+.boton-getbook{
+
+  font-family: Cardo;
+  font-size: 19px;
+  background-color: #1B3764;
+  color: white;
+  border: 3px solid #FFCA42;
+  padding: 20px 53px;
+  margin-top: 20px;
 }

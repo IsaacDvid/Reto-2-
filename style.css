@@ -96,9 +96,8 @@ li {
     height: 40px;
 
 }
-
+/* --------------------  AQUI TERMINÉ */
 main {
-
     display: flex;
     justify-content: space-around;
     padding: 100px;
@@ -107,11 +106,9 @@ main {
 }
 
 article{
-
 padding-top: 170px;
 
 }
-
 .welcome-p{
     display:flex;
 }
@@ -186,6 +183,9 @@ margin-right: 30px;
     font-size: 20px;
     margin-left: 20px;
 }
+
+/* -- AQUI TERMINA LA PARTE DE LA PORTADA GRANDE -- */
+
 .titulo-portaditas{
 
 display:flex;
@@ -242,6 +242,7 @@ margin-bottom: 5px;
     padding: 20px 53px;
 
 }
+/* Aqui termina las portaditas  */
 
 .about-doctor{
 
@@ -267,5 +268,4 @@ color: #1B3764;
     position: absolute;
     margin-right: 65px;
     margin-bottom: 25px;
-
 }
