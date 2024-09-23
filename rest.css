@@ -537,3 +537,147 @@ display: flex;
   color: white;
   /* margin-right: 25px; */
 }
+/* --------------------------------------------------------- */
+
+.section-article-resources{
+  background-color:#F4F8FF;
+  padding: 20px;
+}
+
+
+.article-resources{
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+}
+
+.titulo-articles {
+  display:flex;
+flex-direction:column;
+align-items:center;
+}
+
+.h2-section-article{
+  font-family: Cardo;
+  font-size: 42px;
+  color: #1B3764;
+
+  margin-top: 42px;
+  padding-top: 7dvb;
+}
+
+.l-section-article{
+
+  width: 60px;
+  height: 50px;
+  margin-bottom: 50px;
+
+}
+
+.art-gigant{
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.2);
+}
+.art-mini{
+  display: flex;
+  justify-content: space-between;
+}
+
+.h3-articles-resources{
+
+  font-family: Cardo;
+  font-size: 20px;
+  font-weight: bold;
+  color: #1B3764;
+  margin-bottom: 8px;
+}
+
+.p-articles-resources{
+  font-family: Inter;
+  font-size: 18px;
+  color: #969AA0;
+  padding-bottom:20px;
+}
+
+.btn-articles{
+  font-family: Cardo;
+  font-size: 18px;
+  color: #1B3764;
+}
+
+.h4-articles-resources{
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 290;
+  color: #1B3764;
+  margin-bottom: 12px;
+}
+/* ------------------------------ */
+
+.section-freechapter{
+  display:flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.free-chapter{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  background-color: #FFCA42;
+  margin-top: 120px; margin-bottom: 120px;
+  padding-top: 80px; padding-bottom: 80px;
+  padding-left: 150px; padding-right: 180px;
+}
+
+.free-title{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.h2-free{
+  font-family: Cardo;
+  font-size: 42px;
+  color: #1B3764;
+}
+
+.l-freechapter{
+  width: 60px;
+  height: 50px;
+  /* border-top: 2px solid #1B3764; */
+}
+
+.p-free{
+  font-family: Inter;
+  font-size: 18px;
+  color: #1B3764;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.btns-free-chapter{
+  /* display: flex;
+  flex-direction: column; */
+
+}
+
+.input-form{
+width: 320px;
+height: 40px;
+padding-inline-start: 10px;
+}
+
+.btn-form{
+  width: 90px;
+  height: 40px;
+  font-family: Cardo;
+  font-size: 14px;
+  color: white;
+  background-color: #1B3764;
+  padding-left: 80px; padding-right: 80px;
+  padding-top: 10px; padding-bottom: 10px;
+
+}
