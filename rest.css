@@ -1,0 +1,683 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  background-color: #1B3764;
+  padding-top: 10px;
+  height: 100%;
+  width: 100%;
+}
+
+.parte1 {
+  display: flex;
+}
+
+h2 {
+  font-family: "Inter";
+  color: white;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.facebook {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+}
+
+.twitter {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+}
+
+.linkedin {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+}
+
+ul {
+  font-family: "Inter";
+  font-size: 22px;
+  color: white;
+  list-style: none;
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px
+}
+
+li {
+  margin-left: 60px;
+}
+
+.btn-order {
+  font-family: "Cardo";
+  font-size: 22px;
+  background-color: #FFCA42;
+  color: #1B3764;
+
+  padding: 20px 53px;
+}
+
+.libro {
+  margin-left: 120px;
+  margin-right: 10px;
+  margin-top: 20px;
+  width: 40px;
+  height: 40px;
+}
+
+.carrito {
+  margin-left: 100px;
+  margin-right: 80px;
+  margin-top: 20px;
+  width: 40px;
+  height: 40px;
+}
+
+/* HEADER --> Aqui terminan los estilos del nav */
+
+main {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px;
+  background-color: #1B3764;
+  margin-bottom: 5px;
+}
+
+article {
+  padding-top: 170px;
+}
+
+.welcome-p {
+  display: flex;
+}
+
+.h1-main {
+  font-family: "Cardo";
+  font-size: 30px;
+  color: white;
+  font-weight: 200;
+  padding-bottom: 10px;
+  padding-left: 5px;
+}
+
+.h2_p {
+  font-family: "Cardo";
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.p-main {
+  color: #B4C7E7;
+  font-family: inter;
+  font-weight: 120;
+  font-size: 22px;
+  padding-bottom: 30px;
+}
+
+.pages-p {
+  display: flex;
+  margin-top: 45px;
+  font-family: "Cardo";
+  font-size: 21px;
+  color: white;
+  font-weight: 100;
+}
+
+.pages-p2 {
+
+  display: flex;
+  font-family: "Inter";
+  font-size: 15px;
+  justify-content: space-around;
+  color: #B4C7E7;
+  font-weight: 100;
+  margin-right: 30px;
+}
+
+.h-pages-p {
+
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+/* Botones de la portada grande */
+.read-p {
+
+  background-color: #FFCA42;
+  color: #1B3764;
+  padding: 20px;
+  font-family: "Cardo";
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.read {
+  font-family: "Cardo";
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+/* ---------------------------  */
+
+
+.titulo-portaditas {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.portadas-pequeñas {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin-bottom: 50px;
+
+}
+
+.imagenes-portaditas {
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.2);
+  margin-right: 25px;
+}
+
+.h-portaditas {
+  font-family: Cardo;
+  font-size: 23px;
+  color: #1B3764;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.h3-portaditas {
+  font-family: Cardo;
+  font-size: 32px;
+  color: #1B3764;
+}
+
+.h4-portaditas,
+.parrafos-portaditas {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 200;
+  color: #969AA0;
+  margin-bottom: 25px;
+  margin-right: 60px;
+}
+
+.btn-portadita {
+  font-family: Cardo;
+  font-size: 19px;
+  background-color: white;
+  color: #1B3764;
+  border: 3px solid #FFCA42;
+  padding: 20px 53px;
+}
+
+/* -------------------------------------------- */
+
+.about-doctor {
+  display: flex;
+  justify-content: center;
+  gap: 142px;
+  margin-top: 150px;
+  margin-bottom: 110px;
+}
+
+.container-photo-autor {
+
+  position: relative
+}
+
+.author-position {
+
+  width: 550px;
+  height: 650px;
+  position: absolute;
+  right: 27px;
+  bottom: 30px;
+  /* top: 1915px;
+   left: 315px; */
+}
+
+.numeros {
+  font-family: Cardo;
+  font-size: 45px;
+  margin-right: 15px;
+  color: #1B3764;
+}
+
+.h4-about {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 250;
+  color: #969AA0;
+  margin-right: 15px;
+}
+
+.div-qr {
+  background-color: #1B3764;
+  display: block;
+  justify-content: flex-start;
+  margin-top: 25px;
+  gap: 20px;
+  display: flex;
+  padding: 15px;
+  width: 477px;
+  height: 160px;
+}
+
+.h4-qr {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 150;
+  color: #B4C7E7;
+  margin-bottom: 10px;
+}
+
+/* ------------------------------------------------------------------ */
+
+.trusted-div-principal {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+
+.trusted-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.h3-trusted {
+  font-family: Cardo;
+  font-size: 23px;
+  color: #1B3764;
+  margin-top: 10px;
+}
+
+.p-trusted {
+  font-family: Inter;
+  font-size: 18px;
+  color: #969AA0;
+  text-align: center;
+  margin-top: 10px;
+
+}
+
+/* ------------------------------------------------------------------------------ */
+/* Zona de fondo azúl que se titula getbook */
+
+.boton-getbook {
+
+  font-family: Cardo;
+  font-size: 19px;
+  background-color: #1B3764;
+  color: white;
+  border: 3px solid #FFCA42;
+  padding: 20px 53px;
+  margin-top: 20px;
+}
+
+/* ----------------------------------------------------- */
+
+.recuadritos {
+  background-color: #F4F8FF;
+  margin-bottom: 31px;
+  margin-right: 30px;
+  /* width: 299px;
+  height: 299px; */
+  padding: 25px;
+}
+
+.h3-recuadritos {
+  font-family: Cardo;
+  font-size: 22px;
+  font-weight: bold;
+  background-color: #FFCA42;
+  color: #1B3764;
+  display: inline-block;
+  border-radius: 50%;
+  padding: 5px 7px;
+  margin-bottom: 25px;
+  margin-top: 15px;
+
+
+}
+
+.p-recuadritos {
+  font-family: Cardo;
+  font-size: 22px;
+  font-weight: bold;
+  color: #1B3764;
+  margin-bottom: 42px;
+
+}
+
+/* --------------------------------------------------------- */
+
+/* Zona de recuadros medianamente grandes - The Chapter Includes */
+
+.section-chapter-includes {
+  background-color: #F4F8FF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h2-chapter-includes {
+  font-family: Cardo;
+  font-size: 42px;
+  color: #1B3764;
+  text-align: center;
+  margin-top: 42px;
+  padding-top: 7dvb;
+}
+
+.h3-chapter-includes {
+  font-family: Cardo;
+  font-size: 22px;
+  color: #1B3764;
+  margin-bottom: 15px;
+}
+
+.h4-chapter-includes{
+  font-family: Cardo;
+  /* font-size: 22px; */
+  color: #1B3764;
+  margin-left: 15px;
+
+}
+
+.h5-chapter-includes{
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 180;
+  /* font-size: 22px; */
+  color: #969AA0;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.p-chapter-includes {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: medium;
+  color: #969AA0;
+  margin-bottom: 15px;
+}
+
+.linea-titulos {
+  text-align: center;
+  width: 60px;
+  height: 50px;
+  margin-bottom: 50px;
+}
+
+.recuadros-chapter {
+display: flex;
+}
+
+.cuadros-chapter {
+  background-color: white;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  padding: 40px;
+}
+
+.boton-chapter-includes{
+  font-family: Cardo;
+  font-size: 18px;
+  font-weight: bold ;
+  background-color: #FFCA42;
+  color: #1B3764;
+  border: 3px solid #FFCA42;
+  padding: 20px 73px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+
+}
+
+/* ---------------------------------------------- */
+
+/* Seccion de portadas con estructura especial de posicionamiento */
+
+
+.contenedor-whatReaders{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+
+.div1-whatReaders{
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.div2-whatReaders{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.div-puntos-intermedios{
+  display: flex;
+}
+
+.linea-whatReaders{
+
+  width: 40px;
+  height: 4px;
+  margin-bottom: 20px;
+}
+
+.puntos-whatReaders{
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+
+.h2-whatReaders{
+  font-family: Cardo;
+  font-size: 42px;
+  color: #1B3764;
+}
+
+.h4-whatReaders{
+  font-family: Inter;
+  font-size: 16px;
+  color: #1B3764;
+}
+
+.article-whatReaders{
+  background-color: #1B3764;
+  padding: 35px;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.div-foto-nombre{
+  display: flex;
+  gap: 15px;
+}
+
+
+.div-nombre-puntos{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.person-circular{
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+
+}
+
+.h3-person-whatReaders{
+  font-family: Cardo;
+  font-size: 20px;
+  color: white;
+  /* margin-right: 25px; */
+}
+/* --------------------------------------------------------- */
+
+.section-article-resources{
+  background-color:#F4F8FF;
+  padding: 20px;
+}
+
+
+.article-resources{
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+}
+
+.titulo-articles {
+  display:flex;
+flex-direction:column;
+align-items:center;
+}
+
+.h2-section-article{
+  font-family: Cardo;
+  font-size: 42px;
+  color: #1B3764;
+
+  margin-top: 42px;
+  padding-top: 7dvb;
+}
+
+.l-section-article{
+
+  width: 60px;
+  height: 50px;
+  margin-bottom: 50px;
+
+}
+
+.art-gigant{
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.2);
+}
+.art-mini{
+  display: flex;
+  justify-content: space-between;
+}
+
+.h3-articles-resources{
+
+  font-family: Cardo;
+  font-size: 20px;
+  font-weight: bold;
+  color: #1B3764;
+  margin-bottom: 8px;
+}
+
+.p-articles-resources{
+  font-family: Inter;
+  font-size: 18px;
+  color: #969AA0;
+  padding-bottom:20px;
+}
+
+.btn-articles{
+  font-family: Cardo;
+  font-size: 18px;
+  color: #1B3764;
+}
+
+.h4-articles-resources{
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 290;
+  color: #1B3764;
+  margin-bottom: 12px;
+}
+/* ------------------------------ */
+
+.section-freechapter{
+  display:flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.free-chapter{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  background-color: #FFCA42;
+  margin-top: 120px; margin-bottom: 120px;
+  padding-top: 80px; padding-bottom: 80px;
+  padding-left: 150px; padding-right: 180px;
+}
+
+.free-title{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.h2-free{
+  font-family: Cardo;
+  font-size: 42px;
+  color: #1B3764;
+}
+
+.l-freechapter{
+  width: 60px;
+  height: 50px;
+  /* border-top: 2px solid #1B3764; */
+}
+
+.p-free{
+  font-family: Inter;
+  font-size: 18px;
+  color: #1B3764;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.btns-free-chapter{
+  /* display: flex;
+  flex-direction: column; */
+
+}
+
+.input-form{
+width: 320px;
+height: 40px;
+padding-inline-start: 10px;
+}
+
+.btn-form{
+  width: 90px;
+  height: 40px;
+  font-family: Cardo;
+  font-size: 14px;
+  color: white;
+  background-color: #1B3764;
+  padding-left: 80px; padding-right: 80px;
+  padding-top: 10px; padding-bottom: 10px;
+
+}

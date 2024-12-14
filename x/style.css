@@ -1,0 +1,271 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    background-color: #1B3764;
+    /* justify-content: center; */
+    padding-top: 20px;
+}
+
+.parte1 {
+
+    display: flex;
+}
+
+h2 {
+
+    font-family: "Inter";
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.facebook {
+    background-color: white;
+    /* height: 19px;
+    width: 12px; */
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.twitter {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
+
+.linkedin {
+    background-color: white;
+    /* height: 19px;
+    width: 14px; */
+    margin: 20px;
+    padding: 20px;
+}
+
+ul {
+    font-family: "Inter";
+    font-size: 22px;
+    color: white;
+    list-style: none;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px
+}
+
+li {
+    margin-left: 50px;
+}
+
+.btn-order {
+
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 30px;
+    font-family: "Cardo";
+    font-size: 22px;
+    margin-top: 20px;
+    background-color: #FFCA42;
+    color: #1B3764;
+
+
+}
+
+.libro {
+    margin-left: 120px;
+    margin-right: 10px;
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+
+}
+
+.carrito {
+
+    margin-left: 100px;
+    margin-right: 10px;
+    margin-top: 30px;
+    width: 40px;
+    height: 40px;
+
+}
+/* --------------------  AQUI TERMINÉ */
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    background-color: #1B3764;
+    margin-bottom: 5px;
+}
+
+article{
+padding-top: 170px;
+
+}
+.welcome-p{
+    display:flex;
+}
+
+.h1-main {
+
+    font-family: "Cardo";
+    font-size: 28px;
+    color: white;
+    font-weight: 200;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+.h2_p {
+    font-family: "Cardo";
+    font-size: 48px;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 20px;
+
+}
+
+.p-main {
+
+    color: #B4C7E7;
+    font-family: inter;
+    font-weight: 120;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.pages-p {
+    display: flex;
+    margin-top: 45px;
+    font-family: "Cardo";
+    font-size: 21px;
+    color: white;
+    font-weight: 100;
+}
+
+.pages-p2{
+
+display:flex;
+font-family: "Inter";
+font-size: 15px;
+justify-content: space-around;
+color: #B4C7E7;
+font-weight: 100;
+margin-right: 30px;
+}
+
+.h-pages-p {
+
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.read-p {
+
+    background-color: #FFCA42;
+    color: #1B3764;
+    padding: 20px;
+    font-family: "Cardo";
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.read {
+    font-family: "Cardo";
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+/* -- AQUI TERMINA LA PARTE DE LA PORTADA GRANDE -- */
+
+.titulo-portaditas{
+
+display:flex;
+align-items: center;
+flex-direction: column;
+margin-bottom: 25px;
+
+
+}
+.portadas-pequeñas{
+display: flex;
+justify-content: center;
+justify-content: space-around;
+margin-bottom: 50px;
+
+}
+
+.imagenes-portaditas{
+    box-shadow: 0px 0px 7px rgba(0,0,0, 0.2);
+    margin-right: 25px;
+}
+
+.h-portaditas{
+font-family: Cardo;
+font-size: 23px;
+color: #1B3764;
+margin-left: 10px;
+margin-bottom: 5px;
+}
+
+.h3-portaditas{
+
+    font-family: Cardo;
+    font-size: 32px;
+    color: #1B3764;
+}
+
+.h4-portaditas, .parrafos-portaditas{
+    font-family:Inter;
+    font-size: 18px;
+    font-weight: 200;
+    color: #969AA0;
+    margin-bottom: 25px;
+    margin-right: 60px;
+}
+
+.btn-portadita{
+
+    font-family: Cardo;
+    font-size: 19px;
+    background-color: white;
+    color: #1B3764;
+    border: 3px solid #FFCA42;
+    padding: 20px 53px;
+
+}
+/* Aqui termina las portaditas  */
+
+.about-doctor{
+
+    display: flex;
+    justify-content: center;
+    gap: 142px;
+    margin-top: 150px;
+}
+
+.numeros{
+
+font-family: Cardo;
+font-size: 40px;
+margin-right: 65px;
+color: #1B3764;
+}
+
+.h4-about{
+    font-family:Inter;
+    font-size: 18px;
+    font-weight: 200;
+    color: #969AA0;
+    position: absolute;
+    margin-right: 65px;
+    margin-bottom: 25px;
+}
